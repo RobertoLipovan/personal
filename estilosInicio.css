@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    font-family: Arial;
+    text-align: center;
+    font-size: 1.63rem;
+}
+
+#imgLogo {
+    margin-top: 300px;
+}
+
+#restaurante {
+    font-weight: 700;
+}
+
+
+body {
+    
+    display: block;
+    background-color: #EFFFBD;
+}
+
+#logo {
+    padding: 10px;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 12rem;
+    margin-bottom: -10px;
+}
+
+div #botones {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 600px;
+}
+
+button {
+    margin: 3px;
+    border: 1px solid white;
+    padding: 2px;
+    border-radius: 30px;
+    background-color: #C3DF6B;
+    padding: 5px;
+    width: 400px;
+    
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+h1 {
+    margin-top: 100px;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 4rem;
+}
+
+h3 {
+    font-family: 'Great Vibes', cursive;
+    font-size: 3rem;
+}
+
+.importe {
+    background-color: #C3DF6B;
+    margin-left: 10px;
+    padding: 5px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.precio {
+    display: flex;
+    justify-content: center;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.producto {
+    margin-top: 10px;
+    width: fit-content;
+    height: fit-content;
+    
+}
+
+.contenido div {
+    font-weight: 100;
+    text-align: center;
+}
+
+.lineaDivisoria {
+    background-color: black;
+    width: 100%;
+    height: 1px;
+    margin: 3px;
+}
+
+.productoCarta1 {
+    display: flex;
+    height: fit-content;
+    background-color: #C3DF6B;
+    padding: 3px;
+    font-size: 0.5rem;
+}
+
+.productoCarta2 {
+    display: flex;
+    height: fit-content;
+    background-color: #D7F185;
+    padding: 3px;
+    font-size: 0.5rem;
+}
+
+.nombreProducto {
+    width: 500px;
+    text-align: left;
+    margin-left: 30px;
+}
+
+.numeroProducto {
+    margin-right: 5px;
+    
+}
+
+.precioProducto {
+    position: absolute;
+    right: 0;
+}
