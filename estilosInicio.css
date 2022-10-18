@@ -111,6 +111,7 @@ h3 {
 }
 
 .numeroProducto {
+    width: fit-content;
     margin-right: 5px;
 }
 
