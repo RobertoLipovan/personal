@@ -114,11 +114,6 @@ body{
     font-size: 24px;
     color: var(--black);
 }
-
-.toggle.active {
-    transform: rotate(90deg);
-    transition: transform 0.5s;
-}
 section {
     position: relative;
     min-height: 100vh;
@@ -347,10 +342,20 @@ p {
     }
 }
 @media (max-width: 767px) {
+    .banner .content {
+        margin-bottom: 100px;
+    }
+    .banner .socialMedia {
+        top: 800px;
+    }
     .services .content {
         grid-template-columns: repeat(1,1fr);
     }
     .projects .content {
         grid-template-columns: repeat(1,1fr);
+    }
+    .navigation {
+        width: 100vh;
+        height: 100vh;
     }
 }
