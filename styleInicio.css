@@ -345,9 +345,6 @@ p {
     .banner .content {
         margin-bottom: 100px;
     }
-    .banner .socialMedia {
-        margin-bottom: 100px;
-    }
     .services .content {
         grid-template-columns: repeat(1,1fr);
     }
