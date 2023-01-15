@@ -12,10 +12,11 @@
     <div class="container">
       <div class="navigation">
         <ul>
-          <li><a href="#banner">Inicio</a></li>
-          <li><a href="#about">Sobre mí</a></li>
-          <li><a href="#services">Servicios</a></li>
-          <li><a href="#projects">Proyecto de ciclo</a></li>
+          <li><a href="#banner" onclick="toggleMenu();">Inicio</a></li>
+          <li><a href="#about" onclick="toggleMenu();">Sobre mí</a></li>
+          <li><a href="#services" onclick="toggleMenu();">Servicios</a></li>
+          <li><a href="#projects" onclick="toggleMenu();">Proyecto de ciclo</a></li>
+          <li><a href="#chart" onclick="toggleMenu();">Cosas que quiero</a></li>
         </ul>
       </div>
       <div class="main">
@@ -33,7 +34,7 @@
             </div>
             <h3>Roberto Lipovan Manta</h3>
             <p>Soy un desarrollador Front End creativo, un diseñador web con experiencia y un programador junior de java con muchas ganas de empezar a trabajar.</p>
-            <a href="https://drive.google.com/file/d/17f76bgqxqGVgPQAKetaXltvdu_-7ShWh/view?usp=share_link" class="btn">Descarga mi CV</a>
+            <a href="https://drive.google.com/uc?id=17f76bgqxqGVgPQAKetaXltvdu_-7ShWh&export=download" class="btn">Descarga mi CV</a>
             <ul class="socialMedia">
               <li><a href="https://www.facebook.com/roberto.lipovanmanta/"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
               <li><a href="https://twitter.com/lowbuster23"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
@@ -167,8 +168,20 @@
           </div>
         </section>
 
+        <section class="chart adjust" id="chart">
+          <div class="title">
+            <h2>Lista de la compra</h2>
+            <p>Estas son algunas cosas que me necesito comprar:</p>
+          </div>
+          <div class="content">
+            
+          </div>
+        </section>
+        
       </div>
     </div>
+
+    
 
     <script>
 
@@ -182,6 +195,13 @@
         topbar.classList.toggle('active');
         navigation.classList.toggle('active');
         main.classList.toggle('active');
+      }
+
+      function toggleMenu() {
+        let navigation = document.querySelector('.navigation');
+      let main = document.querySelector('.main');
+      navigation.classList.remove('active');
+      main.classList.remove('active');
       }
 
     </script>
